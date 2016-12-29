@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		764742371E14EB7400CE1D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764742361E14EB7400CE1D5F /* AppDelegate.swift */; };
+		764742391E14EB7400CE1D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764742381E14EB7400CE1D5F /* ViewController.swift */; };
+		7647423C1E14EB7400CE1D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7647423A1E14EB7400CE1D5F /* Main.storyboard */; };
+		7647423E1E14EB7400CE1D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7647423D1E14EB7400CE1D5F /* Assets.xcassets */; };
+		764742411E14EB7400CE1D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7647423F1E14EB7400CE1D5F /* LaunchScreen.storyboard */; };
+		7647424C1E14EB7400CE1D5F /* Beaconizer_Business_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7647424B1E14EB7400CE1D5F /* Beaconizer_Business_Tests.swift */; };
+		764742571E14EB7400CE1D5F /* Beaconizer_Business_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764742561E14EB7400CE1D5F /* Beaconizer_Business_UITests.swift */; };
+		764742671E14EBE700CE1D5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 764742661E14EBE700CE1D5F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		764742481E14EB7400CE1D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7647422B1E14EB7400CE1D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 764742321E14EB7400CE1D5F;
+			remoteInfo = "Beaconizer(Business)";
+		};
+		764742531E14EB7400CE1D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7647422B1E14EB7400CE1D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 764742321E14EB7400CE1D5F;
+			remoteInfo = "Beaconizer(Business)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		764742331E14EB7400CE1D5F /* Beaconizer(Business).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beaconizer(Business).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		764742361E14EB7400CE1D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		764742381E14EB7400CE1D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7647423B1E14EB7400CE1D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7647423D1E14EB7400CE1D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		764742401E14EB7400CE1D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		764742421E14EB7400CE1D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764742471E14EB7400CE1D5F /* Beaconizer(Business)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beaconizer(Business)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7647424B1E14EB7400CE1D5F /* Beaconizer_Business_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beaconizer_Business_Tests.swift; sourceTree = "<group>"; };
+		7647424D1E14EB7400CE1D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764742521E14EB7400CE1D5F /* Beaconizer(Business)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beaconizer(Business)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		764742561E14EB7400CE1D5F /* Beaconizer_Business_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beaconizer_Business_UITests.swift; sourceTree = "<group>"; };
+		764742581E14EB7400CE1D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764742661E14EBE700CE1D5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		764742301E14EB7400CE1D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764742441E14EB7400CE1D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7647424F1E14EB7400CE1D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7647422A1E14EB7400CE1D5F = {
+			isa = PBXGroup;
+			children = (
+				764742351E14EB7400CE1D5F /* Beaconizer(Business) */,
+				7647424A1E14EB7400CE1D5F /* Beaconizer(Business)Tests */,
+				764742551E14EB7400CE1D5F /* Beaconizer(Business)UITests */,
+				764742341E14EB7400CE1D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		764742341E14EB7400CE1D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				764742331E14EB7400CE1D5F /* Beaconizer(Business).app */,
+				764742471E14EB7400CE1D5F /* Beaconizer(Business)Tests.xctest */,
+				764742521E14EB7400CE1D5F /* Beaconizer(Business)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		764742351E14EB7400CE1D5F /* Beaconizer(Business) */ = {
+			isa = PBXGroup;
+			children = (
+				764742361E14EB7400CE1D5F /* AppDelegate.swift */,
+				764742381E14EB7400CE1D5F /* ViewController.swift */,
+				7647423A1E14EB7400CE1D5F /* Main.storyboard */,
+				7647423D1E14EB7400CE1D5F /* Assets.xcassets */,
+				7647423F1E14EB7400CE1D5F /* LaunchScreen.storyboard */,
+				764742421E14EB7400CE1D5F /* Info.plist */,
+				764742661E14EBE700CE1D5F /* GoogleService-Info.plist */,
+			);
+			path = "Beaconizer(Business)";
+			sourceTree = "<group>";
+		};
+		7647424A1E14EB7400CE1D5F /* Beaconizer(Business)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7647424B1E14EB7400CE1D5F /* Beaconizer_Business_Tests.swift */,
+				7647424D1E14EB7400CE1D5F /* Info.plist */,
+			);
+			path = "Beaconizer(Business)Tests";
+			sourceTree = "<group>";
+		};
+		764742551E14EB7400CE1D5F /* Beaconizer(Business)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				764742561E14EB7400CE1D5F /* Beaconizer_Business_UITests.swift */,
+				764742581E14EB7400CE1D5F /* Info.plist */,
+			);
+			path = "Beaconizer(Business)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		764742321E14EB7400CE1D5F /* Beaconizer(Business) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7647425B1E14EB7400CE1D5F /* Build configuration list for PBXNativeTarget "Beaconizer(Business)" */;
+			buildPhases = (
+				7647422F1E14EB7400CE1D5F /* Sources */,
+				764742301E14EB7400CE1D5F /* Frameworks */,
+				764742311E14EB7400CE1D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beaconizer(Business)";
+			productName = "Beaconizer(Business)";
+			productReference = 764742331E14EB7400CE1D5F /* Beaconizer(Business).app */;
+			productType = "com.apple.product-type.application";
+		};
+		764742461E14EB7400CE1D5F /* Beaconizer(Business)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7647425E1E14EB7400CE1D5F /* Build configuration list for PBXNativeTarget "Beaconizer(Business)Tests" */;
+			buildPhases = (
+				764742431E14EB7400CE1D5F /* Sources */,
+				764742441E14EB7400CE1D5F /* Frameworks */,
+				764742451E14EB7400CE1D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				764742491E14EB7400CE1D5F /* PBXTargetDependency */,
+			);
+			name = "Beaconizer(Business)Tests";
+			productName = "Beaconizer(Business)Tests";
+			productReference = 764742471E14EB7400CE1D5F /* Beaconizer(Business)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		764742511E14EB7400CE1D5F /* Beaconizer(Business)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764742611E14EB7400CE1D5F /* Build configuration list for PBXNativeTarget "Beaconizer(Business)UITests" */;
+			buildPhases = (
+				7647424E1E14EB7400CE1D5F /* Sources */,
+				7647424F1E14EB7400CE1D5F /* Frameworks */,
+				764742501E14EB7400CE1D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				764742541E14EB7400CE1D5F /* PBXTargetDependency */,
+			);
+			name = "Beaconizer(Business)UITests";
+			productName = "Beaconizer(Business)UITests";
+			productReference = 764742521E14EB7400CE1D5F /* Beaconizer(Business)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7647422B1E14EB7400CE1D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Gagandeep Nagpal";
+				TargetAttributes = {
+					764742321E14EB7400CE1D5F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = JP9FFSKWS4;
+						ProvisioningStyle = Automatic;
+					};
+					764742461E14EB7400CE1D5F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = JP9FFSKWS4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 764742321E14EB7400CE1D5F;
+					};
+					764742511E14EB7400CE1D5F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = JP9FFSKWS4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 764742321E14EB7400CE1D5F;
+					};
+				};
+			};
+			buildConfigurationList = 7647422E1E14EB7400CE1D5F /* Build configuration list for PBXProject "Beaconizer(Business)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7647422A1E14EB7400CE1D5F;
+			productRefGroup = 764742341E14EB7400CE1D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				764742321E14EB7400CE1D5F /* Beaconizer(Business) */,
+				764742461E14EB7400CE1D5F /* Beaconizer(Business)Tests */,
+				764742511E14EB7400CE1D5F /* Beaconizer(Business)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		764742311E14EB7400CE1D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764742411E14EB7400CE1D5F /* LaunchScreen.storyboard in Resources */,
+				764742671E14EBE700CE1D5F /* GoogleService-Info.plist in Resources */,
+				7647423E1E14EB7400CE1D5F /* Assets.xcassets in Resources */,
+				7647423C1E14EB7400CE1D5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764742451E14EB7400CE1D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764742501E14EB7400CE1D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7647422F1E14EB7400CE1D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764742391E14EB7400CE1D5F /* ViewController.swift in Sources */,
+				764742371E14EB7400CE1D5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764742431E14EB7400CE1D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7647424C1E14EB7400CE1D5F /* Beaconizer_Business_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7647424E1E14EB7400CE1D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764742571E14EB7400CE1D5F /* Beaconizer_Business_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		764742491E14EB7400CE1D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 764742321E14EB7400CE1D5F /* Beaconizer(Business) */;
+			targetProxy = 764742481E14EB7400CE1D5F /* PBXContainerItemProxy */;
+		};
+		764742541E14EB7400CE1D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 764742321E14EB7400CE1D5F /* Beaconizer(Business) */;
+			targetProxy = 764742531E14EB7400CE1D5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7647423A1E14EB7400CE1D5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7647423B1E14EB7400CE1D5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7647423F1E14EB7400CE1D5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				764742401E14EB7400CE1D5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		764742591E14EB7400CE1D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7647425A1E14EB7400CE1D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7647425C1E14EB7400CE1D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JP9FFSKWS4;
+				INFOPLIST_FILE = "Beaconizer(Business)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagan.Beaconizer-Business-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7647425D1E14EB7400CE1D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JP9FFSKWS4;
+				INFOPLIST_FILE = "Beaconizer(Business)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagan.Beaconizer-Business-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7647425F1E14EB7400CE1D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JP9FFSKWS4;
+				INFOPLIST_FILE = "Beaconizer(Business)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagan.Beaconizer-Business-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beaconizer(Business).app/Beaconizer(Business)";
+			};
+			name = Debug;
+		};
+		764742601E14EB7400CE1D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JP9FFSKWS4;
+				INFOPLIST_FILE = "Beaconizer(Business)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagan.Beaconizer-Business-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beaconizer(Business).app/Beaconizer(Business)";
+			};
+			name = Release;
+		};
+		764742621E14EB7400CE1D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JP9FFSKWS4;
+				INFOPLIST_FILE = "Beaconizer(Business)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagan.Beaconizer-Business-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Beaconizer(Business)";
+			};
+			name = Debug;
+		};
+		764742631E14EB7400CE1D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JP9FFSKWS4;
+				INFOPLIST_FILE = "Beaconizer(Business)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagan.Beaconizer-Business-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Beaconizer(Business)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7647422E1E14EB7400CE1D5F /* Build configuration list for PBXProject "Beaconizer(Business)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764742591E14EB7400CE1D5F /* Debug */,
+				7647425A1E14EB7400CE1D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7647425B1E14EB7400CE1D5F /* Build configuration list for PBXNativeTarget "Beaconizer(Business)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7647425C1E14EB7400CE1D5F /* Debug */,
+				7647425D1E14EB7400CE1D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7647425E1E14EB7400CE1D5F /* Build configuration list for PBXNativeTarget "Beaconizer(Business)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7647425F1E14EB7400CE1D5F /* Debug */,
+				764742601E14EB7400CE1D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		764742611E14EB7400CE1D5F /* Build configuration list for PBXNativeTarget "Beaconizer(Business)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764742621E14EB7400CE1D5F /* Debug */,
+				764742631E14EB7400CE1D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7647422B1E14EB7400CE1D5F /* Project object */;
+}
