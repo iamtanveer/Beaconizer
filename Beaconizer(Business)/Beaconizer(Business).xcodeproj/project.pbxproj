@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42F5598639419E0B49B24FA3 /* libPods-Beaconizer(Business).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6618B16C402BE0D03CE95C84 /* libPods-Beaconizer(Business).a */; };
 		764742371E14EB7400CE1D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764742361E14EB7400CE1D5F /* AppDelegate.swift */; };
 		764742391E14EB7400CE1D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764742381E14EB7400CE1D5F /* ViewController.swift */; };
 		7647423C1E14EB7400CE1D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7647423A1E14EB7400CE1D5F /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53273CF898156C03974D154C /* Pods-Beaconizer(Business).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beaconizer(Business).release.xcconfig"; path = "Pods/Target Support Files/Pods-Beaconizer(Business)/Pods-Beaconizer(Business).release.xcconfig"; sourceTree = "<group>"; };
+		6618B16C402BE0D03CE95C84 /* libPods-Beaconizer(Business).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Beaconizer(Business).a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		764742331E14EB7400CE1D5F /* Beaconizer(Business).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beaconizer(Business).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		764742361E14EB7400CE1D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		764742381E14EB7400CE1D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,10 @@
 		764742561E14EB7400CE1D5F /* Beaconizer_Business_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beaconizer_Business_UITests.swift; sourceTree = "<group>"; };
 		764742581E14EB7400CE1D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		764742661E14EBE700CE1D5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		76E2F7F51E15089600362F42 /* FirebaseAnalytics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FirebaseAnalytics; path = Pods/FirebaseAnalytics; sourceTree = "<group>"; };
+		C1DB978BD2C59E1F3B79B2D1 /* Pods-Beaconizer(Business).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beaconizer(Business).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beaconizer(Business)/Pods-Beaconizer(Business).debug.xcconfig"; sourceTree = "<group>"; };
+		F0F717546C26C45E76EAB933 /* Pods_Beaconizer_Business_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beaconizer_Business_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB5D96C84DB89C29218D6C0 /* Pods_Beaconizer_Business_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beaconizer_Business_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42F5598639419E0B49B24FA3 /* libPods-Beaconizer(Business).a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F025F0966C033E12F1FB6EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB978BD2C59E1F3B79B2D1 /* Pods-Beaconizer(Business).debug.xcconfig */,
+				53273CF898156C03974D154C /* Pods-Beaconizer(Business).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7647422A1E14EB7400CE1D5F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +100,8 @@
 				7647424A1E14EB7400CE1D5F /* Beaconizer(Business)Tests */,
 				764742551E14EB7400CE1D5F /* Beaconizer(Business)UITests */,
 				764742341E14EB7400CE1D5F /* Products */,
+				4F025F0966C033E12F1FB6EB /* Pods */,
+				88EF5205E47A683F36909BD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +147,17 @@
 			path = "Beaconizer(Business)UITests";
 			sourceTree = "<group>";
 		};
+		88EF5205E47A683F36909BD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76E2F7F51E15089600362F42 /* FirebaseAnalytics */,
+				F0F717546C26C45E76EAB933 /* Pods_Beaconizer_Business_Tests.framework */,
+				FBB5D96C84DB89C29218D6C0 /* Pods_Beaconizer_Business_UITests.framework */,
+				6618B16C402BE0D03CE95C84 /* libPods-Beaconizer(Business).a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7647425B1E14EB7400CE1D5F /* Build configuration list for PBXNativeTarget "Beaconizer(Business)" */;
 			buildPhases = (
+				8B8FFE0A4C319F71F8B8A424 /* [CP] Check Pods Manifest.lock */,
 				7647422F1E14EB7400CE1D5F /* Sources */,
 				764742301E14EB7400CE1D5F /* Frameworks */,
 				764742311E14EB7400CE1D5F /* Resources */,
+				8C504E151CB195392BD5A1F3 /* [CP] Embed Pods Frameworks */,
+				3A6AB1DC5A4D52D2BCD1D112 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +293,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A6AB1DC5A4D52D2BCD1D112 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Beaconizer(Business)/Pods-Beaconizer(Business)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B8FFE0A4C319F71F8B8A424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C504E151CB195392BD5A1F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Beaconizer(Business)/Pods-Beaconizer(Business)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7647422F1E14EB7400CE1D5F /* Sources */ = {
@@ -415,6 +496,7 @@
 		};
 		7647425C1E14EB7400CE1D5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DB978BD2C59E1F3B79B2D1 /* Pods-Beaconizer(Business).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JP9FFSKWS4;
@@ -428,6 +510,7 @@
 		};
 		7647425D1E14EB7400CE1D5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53273CF898156C03974D154C /* Pods-Beaconizer(Business).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JP9FFSKWS4;
@@ -516,6 +599,7 @@
 				7647425D1E14EB7400CE1D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7647425E1E14EB7400CE1D5F /* Build configuration list for PBXNativeTarget "Beaconizer(Business)Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +608,7 @@
 				764742601E14EB7400CE1D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		764742611E14EB7400CE1D5F /* Build configuration list for PBXNativeTarget "Beaconizer(Business)UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +617,7 @@
 				764742631E14EB7400CE1D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
